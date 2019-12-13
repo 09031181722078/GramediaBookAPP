@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:background="@drawable/baground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".FourthActivity">
+
+        <TextView
+            android:id="@+id/bio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GALERI"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:background="#ffccff"
+            android:textSize="30sp"/>
+
+        <ImageView
+            android:id="@+id/satu"
+            android:layout_below="@+id/bio"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/satuu"/>
+
+        <ImageView
+            android:id="@+id/dua"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="20dp"
+            android:scaleType="fitCenter"
+            android:layout_below="@+id/satu"
+            android:src="@drawable/duaa" />
+
+        <ImageView
+            android:id="@+id/belas"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:layout_below="@+id/dua"
+            android:src="@drawable/belas" />
+
+        <ImageView
+            android:id="@+id/tiga"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:layout_below="@+id/dua"
+            android:layout_toRightOf="@+id/belas"
+            android:src="@drawable/tigaa" />
+
+        <ImageView
+            android:id="@+id/delapan"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="20dp"
+            android:layout_below="@+id/lima"
+            android:scaleType="fitCenter"
+            android:src="@drawable/delapan" />
+
+        <ImageView
+            android:id="@+id/empat"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_below="@+id/tiga"
+            android:layout_marginTop="6dp"
+            android:layout_marginStart="20dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/empat" />
+
+        <ImageView
+            android:id="@+id/enam"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="20dp"
+            android:scaleType="fitCenter"
+            android:layout_below="@+id/empat"
+            android:src="@drawable/enam" />
+
+        <ImageView
+            android:id="@+id/lima"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="20dp"
+            android:scaleType="fitCenter"
+            android:layout_below="@+id/enam"
+            android:src="@drawable/lima" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="62dp"
+            android:outlineAmbientShadowColor="@color/colorPrimary"
+            android:text="Back"
+            android:textSize="20dp"
+            android:layout_below="@+id/lima"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</ScrollView>

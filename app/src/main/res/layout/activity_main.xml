@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/begron">
+
+    <ImageView
+        android:id="@+id/gramedia"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="100dp"
+        android:paddingBottom="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/gramedia"
+        />
+
+    <Button
+        android:id="@+id/btn_move_galeri"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/listsatu"/>
+
+    <Button
+        android:id="@+id/btn_move_justjava"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/listdua"/>
+
+    <Button
+        android:id="@+id/btn_move_profil"
+        android:layout_marginTop="20dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:background="@drawable/listtiga"/>
+
+
+
+
+
+</LinearLayout>

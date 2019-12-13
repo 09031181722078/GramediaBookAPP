@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Gramedia Book</string>
+    <string name="name">Nama</string>
+    <string name="toppings">Atasan</string>
+    <string name="whipped_cream">Sukses Tanpa Modal</string>
+    <string name="chocolate">Insider GUIDE to Jakarta</string>
+    <string name="quantity">Jumlah</string>
+    <string name="initial_quantity">0</string>
+    <string name="order">Pesan</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="order_summary_quantity">Jumlah Masing Masing : <xliff:g id="quantity" example="2"> </xliff:g></string>
+    <string name="order_summary_whipped_cream">Tambah krim susu ? <xliff:g id="addWhippedCream" example="true"> </xliff:g></string>
+    <string name="order_summary_chocolate">Tambah cokelat ? <xliff:g id="addChocolate" example="ya"> </xliff:g></string>
+    <string name="order_summary_name">Nama : <xliff:g id="name" example="Amy">%s</xliff:g></string>
+    <string name="thankyou">Terima Kasih!</string>
+    <string name="order_summary_price">Total : <xliff:g id="priceMessage" example="2"> </xliff:g></string>
+    <string name="order_summary_email_subject">Pemesanan Buku untuk <xliff:g id="name" example="Amy"> </xliff:g></string>
+
+</resources>

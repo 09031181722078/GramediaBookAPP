@@ -1,0 +1,27 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">Gramedia Product</string>
+<string name="name">Name</string>
+<string name="toppings">Toppings</string>
+<string name="whipped_cream">Sukses Tanpa Modal</string>
+<string name="chocolate">Insider GUIDE to Jakarta</string>
+<string name="quantity">Quantity (Masing Masing)</string>
+<string name="initial_quantity">0</string>
+<string name="order">Order</string>
+<string name="plus">+</string>
+<string name="minus">-</string>
+<string name="order_summary_quantity">Quantity : <xliff:g id="quantity" example=""> </xliff:g></string>
+<string name="order_summary_whipped_cream">Whipped Cream ? <xliff:g id="addWhippedCream" example=""> </xliff:g></string>
+<string name="order_summary_chocolate">Chocolate ? <xliff:g id="addChocolate" example=""> </xliff:g></string>
+<string name="order_summary_name">Name : <xliff:g id="name" example="Amy">%s</xliff:g></string>
+<string name="thankyou">Thank You!</string>
+<string name="order_summary_price">Price : <xliff:g id="priceMessage" example="2"></xliff:g> </string>
+<string name="order_summary_email_subject">Just Java Order by <xliff:g id="name" example="Amy"> </xliff:g></string>
+    <string name="near_the">Near the</string>
+
+    <!-- Teks yang ditampilkan di daftar jika tidak ada gempa [CHAR LIMIT=NONE] -->
+    <string name="no_earthquakes">No earthquakes found.</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
+
+</resources>

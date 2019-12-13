@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:background="@drawable/baground">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/bio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Biodata"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:background="#ffccff"
+            android:textSize="30sp"/>
+
+
+        <ImageView
+            android:id="@+id/gambarrahma"
+            android:layout_width="267dp"
+            android:layout_height="376dp"
+            android:layout_marginTop="0dp"
+            android:scaleType="centerCrop"
+            android:layout_marginStart="55dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/rahma" />
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+            android:background="#9494b8"
+            android:text="Biodata Diri "
+            android:layout_marginStart="10dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/nama2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:layout_marginStart="10dp"
+            android:text="Nama :   Rahmawati Safitri TTL : Plg, 03 januari 2000 "
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/nama3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:layout_marginStart="10dp"
+            android:text="Jenis Kelamin :Perempuan    Alamat : Jalan sentosa No. 1349"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/nama4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:layout_marginStart="10dp"
+            android:text="No WhatsApp :   082167023819 Nama Instagram  :  @rah__sya"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:layout_marginStart="10dp"
+            android:text="NIM : 09031181722078 Jurusan :  Sistem Informasi Reg 5B"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:layout_marginStart="10dp"
+            android:text="Agama : Islam Kuliah :  Universitas Sriwijaya"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/nama5"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+            android:background="#9494b8"
+            android:text="Biodata Keluarga "
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/nama6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:layout_marginStart="10dp"
+            android:text="Nama Ayah :   Amiruddin Nama Ibu :  Sudhi Irianingsih"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/nama7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:layout_marginStart="10dp"
+            android:text="No. Telpon Ayah    :   081273357129    No.Telepon Ibu      :  -"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="62dp"
+            android:textSize="20dp"
+            android:text="Back"
+            android:textStyle="bold"
+            android:outlineAmbientShadowColor="@color/colorPrimary"/>
+
+    </LinearLayout>
+</ScrollView>
+
